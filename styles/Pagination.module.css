@@ -1,0 +1,33 @@
+.pagination {
+  margin-top: 20px;
+}
+.pagination-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: -5px;
+}
+.pagination-item {
+  padding: 5px;
+}
+.pagination__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #333;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 18px;
+  transition: all 0.3s;
+}
+
+.pagination__link:hover,
+.active > a {
+  color: #fff;
+  background-color: blue;
+  border: 1px solid blue;
+}

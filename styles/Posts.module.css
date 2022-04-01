@@ -1,0 +1,12 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.post-list {
+  margin: -10px;
+}
+
+.post-item {
+  padding: 10px;
+}

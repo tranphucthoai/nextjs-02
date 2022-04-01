@@ -1,0 +1,19 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.des {
+  margin-bottom: 5px;
+  max-width: 60%;
+}
+.auhthor {
+  font-style: italic;
+  font-weight: 700;
+}

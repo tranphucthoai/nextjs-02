@@ -1,0 +1,35 @@
+.header {
+  margin-bottom: 20px;
+  border-bottom: 1px solid rgba(48, 48, 48, 0);
+  box-shadow: 1px 1px 9px #0000002b;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.menu {
+  padding: 15px 0;
+}
+.nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: -10px -20px;
+}
+
+.nav-item {
+}
+.nav__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: all 0.3s;
+}
+
+.nav__link:hover {
+  color: blue;
+}
